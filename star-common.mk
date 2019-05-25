@@ -111,3 +111,4 @@ PRODUCT_PACKAGES += \
 
 # Call proprietary blob setup
 $(call inherit-product, vendor/samsung/star-common/star-common-vendor.mk)
+$(call inherit-product, vendor/maruos/device-maru.mk)
